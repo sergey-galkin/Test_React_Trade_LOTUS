@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+.header, .info {
+  color: #f34848;
+}
+.header {
+  border-bottom: 2px solid #e8e8e8;
+  padding: 20px 10px;
+  font-size: 1.7em;
+}
+.info {
+  background: #e8e8e8;
+  margin: 30px 0;
+  padding: 5px;
+  align-self: flex-start;
+}

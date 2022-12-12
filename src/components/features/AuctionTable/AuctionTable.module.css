@@ -1,0 +1,44 @@
+.activeUser {
+  background: #ffff7f;
+}
+.table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.table td:first-of-type {
+  width: 30%;
+}
+.table td {
+  width: calc(70% / 4);
+  text-align: center;
+  padding: 10px;
+}
+.head tr {
+  border-bottom: 2px solid #c7c7c7;
+}
+.head td {
+  color: #1d9cce;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+.body td:first-of-type {
+  text-align: left;
+}
+.body tr:nth-child(2n + 1) {
+  background: #f0f0f0;
+}
+.priceHolder {
+  font-weight: bolder;
+}
+.priceHolder > div {
+  padding: 2px;
+}
+.price-1 {
+  color: #5353c9;
+}
+.price-2 {
+  color: #b92121;
+}
+.price-3 {
+  color: #35a535;
+}

@@ -1,0 +1,18 @@
+.timerHolder {
+  display: flex;
+  color: #1d9cce;
+  font-weight: bolder;
+}
+.timerHolder > div:first-of-type {
+  width: 30%;
+}
+.timerHolder > div {
+  width: calc(70% / 4);
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.timer {
+  background: #fac5c5;
+  color: #cc3737;
+}
